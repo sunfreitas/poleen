@@ -1,5 +1,7 @@
 <?php
 
+namespace Api;
+
 class DefaultController{
   var $sample = [
     [
