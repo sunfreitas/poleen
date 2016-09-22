@@ -13,26 +13,26 @@ class DefaultController{
   ];
 
   // GET /teste
-  function index(){
+  public function index(){
       echo 'Hello';
   }
 
   // GET /teste/create
-  function create(){
+  public function create(){
     echo 'C from CRUD';
   }
 
   // GET /teste/{id}
-  function read(){
+  public function read(){
     echo 'R from CRUD';
   }
 
   // PUT /teste
-  function update(){
+  public function update(){
     echo 'U from CRUD';
   }
 
-  function delete(){
+  public function delete(){
     echo 'D from CRUD';
   }
 }
