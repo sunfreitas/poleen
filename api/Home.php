@@ -2,7 +2,7 @@
 
 namespace Api;
 
-class DefaultController{
+class Home{
   var $sample = [
     [
       "name" => "John Doe",
