@@ -4,5 +4,8 @@
         "psr-4": {
             "Api\\": "api/"
         }
-    }
+    },
+  "require": {
+    "symfony/event-dispatcher": "^3.1"
+  }
 }
