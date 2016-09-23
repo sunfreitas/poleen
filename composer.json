@@ -6,6 +6,7 @@
         }
     },
   "require": {
-    "symfony/event-dispatcher": "^3.1"
+    "symfony/event-dispatcher": "^3.1",
+    "symfony/http-foundation": "^3.1"
   }
 }
