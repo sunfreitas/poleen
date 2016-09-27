@@ -25,8 +25,8 @@ class Home{
   }
 
   // GET /teste/{id}
-  public function read(){
-    echo 'R from CRUD';
+  public function read($id){
+    echo "R id '#{$id}' from CRUD";
   }
 
   // PUT /teste
